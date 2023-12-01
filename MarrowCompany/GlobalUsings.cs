@@ -1,0 +1,12 @@
+global using System;
+global using System.IO;
+global using BoneLib;
+global using MelonLoader;
+global using MarrowCompany.Melon;
+global using BoneLib.BoneMenu;
+global using BoneLib.BoneMenu.Elements;
+global using UnityEngine;
+global using MarrowCompany.Menu;
+global using Newtonsoft.Json;
+global using SLZ.Marrow.Warehouse;
+global using BoneLib.Notifications;

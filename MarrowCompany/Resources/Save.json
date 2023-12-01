@@ -1,0 +1,10 @@
+{
+  "Items": {
+    "money": 0,
+    "flashlights": 0,
+    "shovels": 0
+  },
+  "Game": {
+    "quota": 0
+  }
+}
