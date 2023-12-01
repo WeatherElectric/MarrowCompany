@@ -20,6 +20,7 @@ public class Main : MelonMod
         BoneMenu.Setup();
         UserData.Setup();
         SaveManager.LoadSave();
+        FieldInjection.Inject();
         Hooking.OnLevelInitialized += OnLevelLoad;
         Hooking.OnLevelUnloaded += OnLevelUnload;
     }

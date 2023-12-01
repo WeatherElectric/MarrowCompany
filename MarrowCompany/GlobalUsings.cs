@@ -1,4 +1,5 @@
 global using System;
+global using System.Collections.Generic;
 global using System.IO;
 global using BoneLib;
 global using MelonLoader;
@@ -10,3 +11,6 @@ global using MarrowCompany.Menu;
 global using Newtonsoft.Json;
 global using SLZ.Marrow.Warehouse;
 global using BoneLib.Notifications;
+global using HarmonyLib;
+global using MarrowCompany.Scripts.Game;
+global using UltEvents;

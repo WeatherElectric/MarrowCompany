@@ -34,6 +34,9 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>References\0Harmony.dll</HintPath>
+        </Reference>
         <Reference Include="Assembly-CSharp">
             <HintPath>References\Assembly-CSharp.dll</HintPath>
         </Reference>
@@ -58,8 +61,14 @@
         <Reference Include="SLZ.Marrow.SDK">
             <HintPath>References\SLZ.Marrow.SDK.dll</HintPath>
         </Reference>
+        <Reference Include="UltEvents">
+          <HintPath>References\UltEvents.dll</HintPath>
+        </Reference>
         <Reference Include="UnhollowerBaseLib">
             <HintPath>References\UnhollowerBaseLib.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.TextMeshPro">
+          <HintPath>References\Unity.TextMeshPro.dll</HintPath>
         </Reference>
         <Reference Include="UnityEngine.CoreModule">
             <HintPath>References\UnityEngine.CoreModule.dll</HintPath>
@@ -68,12 +77,15 @@
     <ItemGroup>
         <Compile Include="BoneMenu\BoneMenu.cs"/>
         <Compile Include="BoneMenu\BoneMenuExtensions.cs"/>
+        <Compile Include="FieldInjection.cs" />
         <Compile Include="GlobalUsings.cs"/>
         <Compile Include="Main.cs"/>
         <Compile Include="Melon\ModConsole.cs"/>
         <Compile Include="Melon\Preferences.cs"/>
         <Compile Include="Melon\UserData.cs"/>
+        <Compile Include="Patching\PlayerPatch.cs" />
         <Compile Include="Scripts\Game\AmazonDelivery.cs" />
+        <Compile Include="Scripts\Game\OnPlayerReady.cs" />
         <Compile Include="Scripts\Game\Shop.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="SaveManager.cs" />

@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace MarrowCompany.Scripts.Game;
+﻿namespace MarrowCompany.Scripts.Game;
 
 public class AmazonDelivery : MonoBehaviour
 {
