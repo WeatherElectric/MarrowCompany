@@ -8,4 +8,6 @@ public class OnPlayerReady : MonoBehaviour
     {
         onReady.Invoke();
     }
+    
+    public OnPlayerReady(IntPtr ptr) : base(ptr) {}
 }

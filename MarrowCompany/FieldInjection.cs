@@ -5,6 +5,7 @@ internal static class FieldInjection
     public static void Inject()
     {
         FieldInjector.SerialisationHandler.Inject<AmazonDelivery>();
+        FieldInjector.SerialisationHandler.Inject<OnPlayerReady>();
         FieldInjector.SerialisationHandler.Inject<TimeManager>();
         FieldInjector.SerialisationHandler.Inject<Shop>();
     }

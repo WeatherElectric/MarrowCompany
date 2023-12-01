@@ -49,4 +49,6 @@ public class Shop : MonoBehaviour
             Notifier.Send(notification);
         }
     }
+    
+    public Shop(IntPtr ptr) : base(ptr) {}
 }

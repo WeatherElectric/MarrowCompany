@@ -22,4 +22,6 @@ public class TimeManager : MonoBehaviour
             _time = 0;
         }
     }
+    
+    public TimeManager(IntPtr ptr) : base(ptr) {}
 }

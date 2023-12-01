@@ -22,4 +22,6 @@ public class AmazonDelivery : MonoBehaviour
         }
         OrderedCrates.Clear();
     }
+    
+    public AmazonDelivery(IntPtr ptr) : base(ptr) {}
 }
